@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Planificateur</title>
+<meta name="description" content="Outil privé pour programmer des vidéos sur ses propres chaînes YouTube et suivre leurs statistiques.">
+<style>
+:root{color-scheme:light;--fond:#fcfcfb;--texte:#141413;--doux:#52514e;--accent:#2a78d6;--bord:#e2e0d9}
+@media(prefers-color-scheme:dark){:root{color-scheme:dark;--fond:#1a1a19;--texte:#f0efec;--doux:#c3c2b7;--accent:#3987e5;--bord:#31312e}}
+body{margin:0;background:var(--fond);color:var(--texte);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:56px 16px}
+h1{font-size:32px;margin:0 0 8px;letter-spacing:-.01em}
+.sous{color:var(--doux);margin:0 0 32px}
+h2{font-size:19px;margin:32px 0 8px}
+ul{padding-left:20px}
+a{color:var(--accent)}
+footer{border-top:1px solid var(--bord);margin-top:48px;padding-top:16px;font-size:15px;color:var(--doux);display:flex;gap:20px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<main>
+  <h1>Planificateur</h1>
+  <p class="sous">Un outil privé pour programmer des vidéos sur ses propres chaînes YouTube et suivre leurs statistiques au même endroit.</p>
+
+  <h2>Ce que fait l'application</h2>
+  <ul>
+    <li>Connecter ses propres chaînes YouTube avec la connexion Google officielle.</li>
+    <li>Voir pour chaque chaîne : abonnés, vues par jour, vidéos récentes et fidélisation de l'audience.</li>
+    <li>Envoyer une vidéo sur une ou plusieurs chaînes avec une date de publication : YouTube la publie à l'heure choisie.</li>
+    <li>Voir toutes les publications prévues dans un calendrier.</li>
+  </ul>
+
+  <h2>Utilisation des données Google</h2>
+  <p>L'application demande l'accès à YouTube uniquement pour envoyer les vidéos que l'utilisateur a lui-même programmées (<code>youtube.upload</code>), lire les informations et vidéos de ses chaînes (<code>youtube.readonly</code>) et afficher leurs statistiques (<code>yt-analytics.readonly</code>). Les données restent sur l'ordinateur de l'utilisateur et ne sont ni vendues ni partagées. Détails dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+
+  <h2>Qui peut l'utiliser</h2>
+  <p>L'application tourne sur l'ordinateur de son propriétaire et sert à gérer ses propres chaînes. Elle n'est pas proposée au public.</p>
+
+  <footer>
+    <a href="confidentialite.html">Politique de confidentialité</a>
+    <a href="conditions.html">Conditions d'utilisation</a>
+  </footer>
+</main>
+</body>
+</html>
